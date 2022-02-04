@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --background-image: linear-gradient(to left,rgb(16, 16, 223), rgb(88, 165, 161),rgb(150, 21, 201));
+    --background-image: linear-gradient(to right,rgb(16, 16, 223), rgb(88, 165, 161),rgb(150, 21, 201));
     --primary-color: rgb(144, 10, 197);
     --primary-color-darker: rgb(9, 88, 88);
 }
