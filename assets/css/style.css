@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --background-image: linear-gradient(to left,rgb(16, 16, 223), rgb(88, 165, 161),rgb(150, 21, 201));
+    --primary-color: rgb(144, 10, 197);
+    --primary-color-darker: rgb(9, 88, 88);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--background-image);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* altura, tam font e preenchimento do input */
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+/* cor da borda do imput */
+form input:focus {
+    outline: 1px solid var(--primary-color); 
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+/* quando passa o mouse acima do button */
+form button:hover {
+    background: var(--primary-color-darker);
+}
+/* muda a cor quando clica no button */
+form button:active {
+    background: rgb(12, 112, 179);
+}
+
+
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color: red;
+}
+
+
+
