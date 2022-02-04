@@ -74,5 +74,15 @@ form button:active {
     color: red;
 }
 
+.logo {
+    width: 100px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.h6{
+    text-align: center;
+}
+
 
 
